@@ -1,0 +1,9 @@
+Comandos GitHub CLI
+
+Lista de Comandos do Gh:
+
+-> gh auth login
+
+-> gh repo create meu-projeto-terminal --public --source=. --remote=origin
+# Comando completo recomendado (cria e envia tudo automaticamente)
+gh repo create nome-do-repositorio --public --source=. --push

@@ -1,3 +1,0 @@
-Curso of Git and GitHub
-Sujeito Programador
-Vou implementar o TailwindCss para ficar mais fácil a Estilização!
