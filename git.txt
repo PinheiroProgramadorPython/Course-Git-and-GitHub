@@ -29,3 +29,12 @@ git pull
 
 -> git clone http://github.com/repositorio
 git clone http://github.com/repositorio .
+
+-> git branch
+git branch nome-da-branch
+
+-> git checkout
+git checkout HEAD nome-do-arquivo
+git checkout nome-da-branch
+
+-> git reset --hard origin/main
