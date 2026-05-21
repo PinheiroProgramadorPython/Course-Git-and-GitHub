@@ -1,6 +1,7 @@
-Curso of Git and GitHub
+Curso Git and GitHub
+
 Sujeito Programador
-Vou implementar o TailwindCss para ficar mais fácil a Estilização!
+
 Lista de Comandos do Git:
 
 -> git init
@@ -13,12 +14,18 @@ git add nome-do-arquivo
 -> git status
 
 -> git commit -m "Descrition do Commit"
+git commit nome-do-arquivo -m "Descrition do Commit"
 
--> git remote add origin "http://github.com/repositorio"
+-> git remote add origin http://github.com/repositorio
 git remote -v
 
 -> git push -u origin main
 git push
 
+-> git log
+
 -> git pull origin main
 git pull
+
+-> git clone http://github.com/repositorio
+git clone http://github.com/repositorio .
