@@ -24,6 +24,13 @@ git push
 git push --set-upstream origin "nome-da-branch"
 
 -> git log
+git shortlog
+git reflog
+
+-> git diff
+git diff nome-da-branch
+git diff HEAD: nome-do-arquivo
+git diff HEAD: /pasta/nome-do-arquivo
 
 -> git pull
 git pull origin main
@@ -31,9 +38,12 @@ git pull origin main
 -> git branch
 git branch nome-da-branch
 git checkout nome-da-branch
+git checkout -b "nome-da-branch"
 git branch -d nome-da-branch
 
--> git merge nome-da-branch
+-> git merge
+git merge nome-da-branch
+git merge origin/nome-da-branch
 
 -> git checkout
 git checkout HEAD nome-do-arquivo
@@ -57,5 +67,7 @@ git clone http://github.com/repositorio .
 
 -> git fetch 
 git fetch -a
+
+-> git gc
 
 -> git reset --hard origin/main
