@@ -51,4 +51,7 @@ git tag -a nome-da-tag -m "mensagem-sobre-a-versão"
 git show nome-da-tag
 git checkout nome-da-tag
 
+-> git push --tags
+git push origin nome-da-tag
+
 -> git reset --hard origin/main
