@@ -21,14 +21,12 @@ git remote -v
 
 -> git push -u origin main
 git push
+git push --set-upstream origin "nome-da-branch"
 
 -> git log
 
--> git pull origin main
-git pull
-
--> git clone http://github.com/repositorio
-git clone http://github.com/repositorio .
+-> git pull
+git pull origin main
 
 -> git branch
 git branch nome-da-branch
@@ -53,5 +51,11 @@ git checkout nome-da-tag
 
 -> git push --tags
 git push origin nome-da-tag
+
+-> git clone http://github.com/repositorio
+git clone http://github.com/repositorio .
+
+-> git fetch 
+git fetch -a
 
 -> git reset --hard origin/main
