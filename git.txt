@@ -34,7 +34,8 @@ git clone http://github.com/repositorio .
 git branch nome-da-branch
 git checkout nome-da-branch
 git branch -d nome-da-branch
-git merge nome-da-branch
+
+-> git merge nome-da-branch
 
 -> git checkout
 git checkout HEAD nome-do-arquivo
