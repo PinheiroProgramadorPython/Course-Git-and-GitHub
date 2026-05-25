@@ -39,15 +39,27 @@ git pull origin main
 git branch nome-da-branch
 git checkout nome-da-branch
 git checkout -b "nome-da-branch"
+git branch -r
 git branch -d nome-da-branch
 
 -> git merge
 git merge nome-da-branch
 git merge origin/nome-da-branch
 
+-> git restore
+git restore nome-do-arquivo
+git restore --staged nome-do-arquivo
+# A flag --source diz de onde queres puxar o ficheiro. 
+# Neste caso, puxa a versão do ficheiro como estava 2 commits atrás (HEAD~2).
+git restore --source=HEAD~2 script.js
+
 -> git checkout
 git checkout HEAD nome-do-arquivo
 git checkout nome-da-branch
+
+-> git switch
+git switch nome-da-branch
+git switch -c nome-da-branch
 
 -> git stach
 git stash List
@@ -65,8 +77,11 @@ git push origin nome-da-tag
 -> git clone http://github.com/repositorio
 git clone http://github.com/repositorio .
 
--> git fetch 
+-> git fetch
+git fetch origin 
 git fetch -a
+git fetch -a origin
+git fetch --all
 
 -> git gc
 
