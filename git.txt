@@ -40,4 +40,9 @@ git merge nome-da-branch
 git checkout HEAD nome-do-arquivo
 git checkout nome-da-branch
 
+-> git stach
+git stash List
+git stash apply number_id-da-stash
+git stash show -p number_id-da-stash
+
 -> git reset --hard origin/main
