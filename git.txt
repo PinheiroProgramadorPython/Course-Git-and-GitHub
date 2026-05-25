@@ -73,6 +73,7 @@ git checkout nome-da-tag
 
 -> git push --tags
 git push origin nome-da-tag
+git push origin -d nome-da-tag
 
 -> git clone http://github.com/repositorio
 git clone http://github.com/repositorio .
