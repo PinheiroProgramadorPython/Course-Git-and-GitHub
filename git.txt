@@ -62,7 +62,7 @@ git switch nome-da-branch
 git switch -c nome-da-branch
 
 -> git stach
-git stash List
+git stash list
 git stash apply number_id-da-stash
 git stash show -p number_id-da-stash
 
