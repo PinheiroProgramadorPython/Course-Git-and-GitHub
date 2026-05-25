@@ -47,6 +47,8 @@ git stash apply number_id-da-stash
 git stash show -p number_id-da-stash
 
 -> git tag
-git tag -a nome-da-versão -m "mensagem-sobre-a-versão"
+git tag -a nome-da-tag -m "mensagem-sobre-a-versão"
+git show nome-da-tag
+git checkout nome-da-tag
 
 -> git reset --hard origin/main
